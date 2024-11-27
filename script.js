@@ -20,3 +20,5 @@ const biciclette = [
       peso: 23,
     },
 ];
+
+let biciclettaPiuLeggera = biciclette[0];
