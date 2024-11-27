@@ -25,4 +25,8 @@ let biciclettaPiuLeggera = biciclette[0];
 for (let i = 1; i < biciclette.length; i++) {
      if (biciclette[i].peso < biciclettaPiuLeggera.peso) {
         biciclettaPiuLeggera = biciclette[i];
-    } }
+
+    }   
+}
+
+console.log(`La bicicletta più leggera è ${biciclettaPiuLeggera.name} con un peso di ${biciclettaPiuLeggera.peso} kg.`);
